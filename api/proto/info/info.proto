@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+service Environment {
+    rpc GetEnvironmentInfo(EnvironmentRequest) returns(EnvironmentResponse) {};
+}
+
+message EnvironmentRequest {
+}
+
+message EnvironmentResponse {
+    string go_root=1;
+    string version=2;
+    string host_name=3;
+    string net_interface=4;
+    string goarch=5;
+    string goos=6;
+}
