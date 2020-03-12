@@ -8,7 +8,7 @@ import (
 	"mini-micro-example/pkg/user"
 )
 
-//main2
+//main3
 func main() {
 	service := micro.NewService(
 		micro.Name("go.micro.api.user"),
