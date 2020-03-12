@@ -7,8 +7,7 @@ import (
 	proto "mini-micro-example/api/proto/user"
 	"mini-micro-example/pkg/user"
 )
-
-//main3
+//hahahahah
 func main() {
 	service := micro.NewService(
 		micro.Name("go.micro.api.user"),
