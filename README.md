@@ -1,3 +1,3 @@
 # mini-micro-example
 micro,golang
-wow1
+wow
